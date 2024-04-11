@@ -21,6 +21,32 @@ section {
     margin: auto;
 }
 
+button#iadicionar {
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #6ad189;
+    border: none;
+    border-radius: 10px;
+}
+
+select {
+    width: 160px;
+    margin-top: 10px;
+}
+
+button#ifinalizar {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #6ad189;
+    border: none;
+    border-radius: 10px;
+}
+
+div#resposta p {
+    margin-top: 2px;
+}
+
 footer {
     color: white;
     text-align: center;

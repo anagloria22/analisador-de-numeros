@@ -40,11 +40,11 @@ function finalizar() {
         let media = soma / valores.length
         
         resposta.innerHTML = ''
-        resposta.innerHTML += `Ao todo temos ${tot} números cadastrados <br>`
-        resposta.innerHTML += `O número ${maior} é o maior cadastrado <br>`
-        resposta.innerHTML += `O número ${menor} é o menor cadastrado <br>`
-        resposta.innerHTML += `A soma total dos números cadastrados é ${soma} <br>`
-        resposta.innerHTML += `A média dos números cadastrados é ${media}`
+        resposta.innerHTML += `<p> Ao todo temos ${tot} números cadastrados;</p> <br>`
+        resposta.innerHTML += `<p> O número ${maior} é o maior cadastrado;</p> <br>`
+        resposta.innerHTML += `<p> O número ${menor} é o menor cadastrado;</p> <br>`
+        resposta.innerHTML += `<p> A soma total dos números cadastrados é ${soma};</p> <br>`
+        resposta.innerHTML += `<p> A média dos números cadastrados é ${media}.</p>`
         
     }
 }
