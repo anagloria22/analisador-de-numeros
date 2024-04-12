@@ -5,7 +5,7 @@ let valores = []
 let soma = 0
 
 function adicionar () {
-    if (num.value.length <= 0 || num.value.length > 100 || num.value.length == num) {
+    if (num.value <= 0 || num.value > 100 || num.value.length == num) {
         alert('Valor inválido ou já encontrado na lista')
     } else {
         let n = Number(num.value)
