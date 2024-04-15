@@ -5,7 +5,9 @@ let valores = []
 let soma = 0
 
 function adicionar () {
-    if (num.value <= 0 || num.value > 100 || num.value == valores) {
+    const numInArray = valores.find(valor => valor === Number(num.value)) != undefined
+
+    if (num.value <= 0 || num.value > 100 || numInArray) {
         alert('Valor inválido ou já encontrado na lista')
     } else {
         let n = Number(num.value)
